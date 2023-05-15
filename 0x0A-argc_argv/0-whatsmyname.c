@@ -1,11 +1,13 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Entry point
  * @argc: - count argument
- * @*argv[]: - array of strings
- * return: 0  exit(EXIT_SUCCESS OR EXIT_FAILURE)
+ * @argv: - array of strings
+ *
+ * return: 0 always
  */
 
 int main(int argc, char *argv[])
@@ -14,7 +16,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("The name of the program is %s\n", argv[i]);
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
