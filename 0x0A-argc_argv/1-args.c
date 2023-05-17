@@ -7,7 +7,7 @@
  * @argc: - count argument
  * @argv: - array of strings
  *
- * return: 0 always
+ * Return: 0 always
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
